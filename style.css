@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+}
+.job {
+    margin-bottom: 10px;
+}
+.job-title {
+    font-weight: bold;
+}
+.company {
+    font-style: italic;
+}
