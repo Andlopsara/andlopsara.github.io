@@ -5,54 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"> 
-    <title>Curriculum Vitae - Juan Pérez</title>
+    <title>Portafolio de Andrea López</title>
 </head>
 <body>
-    <h1>Curriculum Vitae - Juan Pérez</h1>
-    <section class="section">
-        <h2>Información Personal</h2>
-        <p>Nombre: Juan Pérez</p>
-        <p>Fecha de nacimiento: 12 de mayo de 1990</p>
-        <p>Dirección: Av. Libertad 123, Ciudad de México</p>
-        <p>Teléfono: 555-123-4567</p>
-        <p>Correo electrónico: [juanperez@email.com](mailto:juanperez@email.com)</p>
-    </section>
-    <section class="section">
-        <h2>Experiencia Laboral</h2>
-        <div class="job">
-            <h3 class="job-title">Responsable de Ventas</h3>
-            <p class="company">Chip Tech</p>
-            <p>Junio 2018 - actualidad</p>
+    <header>
+        <h1>Bienvenidos a mi Portafolio</h1>
+        <nav>
             <ul>
-                <li>Responsable de visitar clientes de forma periódica y realizar un número de ventas específico al mes.</li>
-                <li>Aumenté la cartera de clientes en un 10% gracias a mi don de gentes.</li>
-                <li>Superé mis metas de venta mensuales en un 15%.</li>
-                <li>Mantuve contacto constante con los clientes y me aseguré de mantener una relación próspera y duradera.</li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#mis-herramientas">Mis Herramientas</a></li>
+                <li><a href="#contactame">Contáctame</a></li>
+                <li><a href="#trabajos">Trabajos</a></li>
             </ul>
-        </div>
-        <div class="job">
-            <h3 class="job-title">Asesor de Ventas</h3>
-            <p class="company">Chip Tech</p>
-            <p>Enero 2017 - junio 2018</p>
-            <ul>
-                <li>Responsable de atender a un promedio de 25 clientes diarios en el kiosko de la empresa.</li>
-                <li>Alcancé mis objetivos de ventas de forma constante durante todo 2017.</li>
-                <li>Recibí una calificación de 9,3 en las encuestas de satisfacción de cliente.</li>
-                <li>Memoricé un catálogo con más de 50 productos tecnológicos diferentes.</li>
-            </ul>
-        </div>
+        </nav>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Aquí puedes escribir una descripción sobre ti.</p>
     </section>
-    <section class="section">
-        <h2>Educación</h2>
-        <p>Licenciatura en Administración de Empresas, Universidad Nacional Autónoma de México (2015-2019)</p>
-    </section>
-    <section class="section">
-        <h2>Habilidades</h2>
+
+    <section id="mis-herramientas">
+        <h2>Mis Herramientas</h2>
         <ul>
-            <li>Idiomas: español (nativo), inglés (avanzado)</li>
-            <li>Programas informáticos: Microsoft Office, Salesforce</li>
-            <li>Habilidades blandas: comunicación efectiva, trabajo en equipo, liderazgo</li>
+            <li>Herramienta 1</li>
+            <li>Herramienta 2</li>
+            <li>Herramienta 3</li>
         </ul>
     </section>
+
+    <section id="contactame">
+        <h2>Contáctame</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="trabajos">
+        <h2>Trabajos</h2>
+        <p>Aquí puedes mostrar algunos de tus trabajos realizados.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
