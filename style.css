@@ -178,6 +178,10 @@ section {
 
 
 #section5 {
+    background-image: url('imagen12.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: #ffe6f2; 
     font-family: "Helvetica", serif;
     padding: 20px;
