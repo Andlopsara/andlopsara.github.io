@@ -48,6 +48,26 @@ section {
     background-color: #ebcfd1; 
     font-family: "Helvetica", serif;
     height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row; /* Asegúrate de que la dirección sea row */
+}  
+
+#section1 .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinea el contenido al final para que la imagen esté a la derecha */
+}
+
+#section1 .imagen-izquierda {
+    margin-left: 95px; /* Espacio entre la imagen y el texto */
+    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+#section1 .texto {
+    margin-left: 15px; 
+    flex: 1; /* Asegura que el texto ocupe el espacio restante */
 }
 
 #section2 {
