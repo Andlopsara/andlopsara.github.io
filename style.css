@@ -74,23 +74,72 @@ section {
 }
 /*..........*/
 #section2 {
-    background-color: #e6f7ff; 
-    font-family: "Helvetica", serif;}
+    background-image: url('imagen4.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: "Helvetica", serif;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+}
+#section2 .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+#section2 .texto {
+    color: #333;
+    margin-left: 15%; 
+    flex: 1; 
+}
+    #section2 .imagen-izquierda {
+        margin-top: 25px;
+        margin-right: 155px;
+        width: 375px;
+        height: auto; 
+    }
 
 #section3 {
+    background-image: url('imagen5.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: #e6ffe6; 
-    font-family: "Helvetica", serif;}
+    font-family: "Helvetica", serif;
+    text-align: center; /* Centrar el texto dentro de la sección */
+}
+#section3 h2 p{
+    color: #333;
+}
+.image-container {
+    display: flex;
+    justify-content: space-around; /* Espacio entre los elementos */
+    align-items: center; /* Centrar los elementos verticalmente */
+    margin-top: 20px;
+}
 
+.image-container div {
+    text-align: center; /* Centrar el texto dentro de cada div */
+}
+
+.image-left img, .image-center img, .image-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-left, .image-center, .image-right {
+    flex: 1;
+    margin: 10px;
+}
 #section4 {
     background-color: #fff5e6; 
     font-family: "Helvetica", serif;}
 
 #section5 {
     background-color: #ffe6f2; 
-    font-family: "Helvetica", serif;}
-
-#section6 {
-    background-color: #f9e6ff; 
     font-family: "Helvetica", serif;}
 
 
