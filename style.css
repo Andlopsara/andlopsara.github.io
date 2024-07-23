@@ -31,7 +31,7 @@ nav a {
     padding: 14px 20px;
     text-decoration: none;
     font-weight: bold; 
-    margin-left: 20px; 
+    margin-left: 100px; 
 }
 nav a:hover {
     background-color:#ebcfd1;
@@ -43,51 +43,54 @@ section {
     padding: 20px;
     margin: 10px;
 }
-
+/*..........*/
 #section1 {
-    background-color: #ebcfd1; 
+    background-image: url('imagen3.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
     font-family: "Helvetica", serif;
     height: 500px;
     display: flex;
     align-items: center;
-    flex-direction: row; /* Asegúrate de que la dirección sea row */
+    flex-direction: row; 
 }  
-
 #section1 .content {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Alinea el contenido al final para que la imagen esté a la derecha */
+    justify-content: flex-end; 
 }
-
 #section1 .imagen-izquierda {
-    margin-left: 95px; /* Espacio entre la imagen y el texto */
-    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
-    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 25px;
+    margin-right: 155px;
+    width: 375px;
+    height: auto; 
 }
-
 #section1 .texto {
-    margin-left: 15px; 
-    flex: 1; /* Asegura que el texto ocupe el espacio restante */
+    color: #333;
+    margin-left: 15%; 
+    flex: 1; 
 }
-
+/*..........*/
 #section2 {
-    background-color: #e6f7ff; /* Azul claro */
+    background-color: #e6f7ff; 
     font-family: "Helvetica", serif;}
 
 #section3 {
-    background-color: #e6ffe6; /* Verde claro */
+    background-color: #e6ffe6; 
     font-family: "Helvetica", serif;}
 
 #section4 {
-    background-color: #fff5e6; /* Naranja claro */
+    background-color: #fff5e6; 
     font-family: "Helvetica", serif;}
 
 #section5 {
-    background-color: #ffe6f2; /* Rosa claro */
+    background-color: #ffe6f2; 
     font-family: "Helvetica", serif;}
 
 #section6 {
-    background-color: #f9e6ff; /* Violeta claro */
+    background-color: #f9e6ff; 
     font-family: "Helvetica", serif;}
 
 
